@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head';
+import { Button } from '../src';
 
 const Home: NextPage = () => {
   return (
@@ -54,6 +55,7 @@ const Home: NextPage = () => {
         </Head>
 
         <main>
+            <Button label={'test'} />
         </main>
       </>
   );
